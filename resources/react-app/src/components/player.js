@@ -6,7 +6,6 @@ const Player = (props) => {
     const [fileName, setFileName] = useState(null);
 
     useEffect(() => {
-        console.log(props);
         const media = props.media;
 
         if (media.id) {
@@ -17,7 +16,6 @@ const Player = (props) => {
             setFileName(null);
         }
     }, [props.media.id]);
-    console.log(url);
     return url ? (
         <ReactWebMediaPlayer
             width={500}
