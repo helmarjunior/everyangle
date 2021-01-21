@@ -1,0 +1,15 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/resources/react-app/node_modules
+/resources/react-app/.history
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
